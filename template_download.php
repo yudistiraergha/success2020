@@ -22,12 +22,12 @@
       
         <tr>
           <td>Inventori</td>
-          <td><a href="file/inventori.pdf">Download</a></td> 
-          
+          <td><input type='button' class="btn btn-primary" value='Download'onClick='top.location="file/inventori.pdf"'></td>
+
         </tr>
         <tr>
             <td>Wartegg</td> 
-            <td><a href="file/wartegg.pdf">Download</a></td> 
+            <td><input type='button' class="btn btn-primary" value='Download'onClick='top.location="file/wartegg.pdf"'></td>
             </tr>
     </table>
   </div>
