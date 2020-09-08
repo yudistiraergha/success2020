@@ -65,6 +65,59 @@ input[type="number"] {
   </div>
 
 
+<div class="row">
+    <div class="col">
+    <figure class="highcharts-figure">
+      <div id="pre2"></div>
+      <p class="highcharts-description">
+      </p>
+    </figure>
+    </div>
+    <div class="col">
+    <figure class="highcharts-figure">
+      <div id="post2"></div>
+      <p class="highcharts-description">
+      </p>
+    </figure>
+        </div>
+  </div>
+
+
+<div class="row">
+    <div class="col">
+    <figure class="highcharts-figure">
+      <div id="pre3"></div>
+      <p class="highcharts-description">
+      </p>
+    </figure>
+    </div>
+    <div class="col">
+    <figure class="highcharts-figure">
+      <div id="post3"></div>
+      <p class="highcharts-description">
+      </p>
+    </figure>
+        </div>
+  </div>
+
+
+<div class="row">
+    <div class="col">
+    <figure class="highcharts-figure">
+      <div id="pre4"></div>
+      <p class="highcharts-description">
+      </p>
+    </figure>
+    </div>
+    <div class="col">
+    <figure class="highcharts-figure">
+      <div id="post4"></div>
+      <p class="highcharts-description">
+      </p>
+    </figure>
+        </div>
+  </div>
+
 
  </div>
 
@@ -115,7 +168,7 @@ input[type="number"] {
       y: 230 
     }, {
       name: 'Sesuai',
-      y: 701,
+      y: 689,
       sliced: true,
       selected: true
     }]
@@ -175,11 +228,324 @@ input[type="number"] {
 });
 
 // /------------------------/  //
+Highcharts.chart('pre2', {
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: 'Soal PRE Test Bagian 2 Nomor 2'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  accessibility: {
+    point: {
+      valueSuffix: '%'
+    }
+  },
+  plotOptions: {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+      }
+    }
+  },
+  series: [{
+    name: 'Jumlah Pemilih',
+    colorByPoint: true,
+    data: [{
+      name: 'Tidak Sesuai',
+      y: 39
+    }, {
+      name: 'Kurang Sesuai',
+      y: 77
+    }, {
+      name: 'Netral',
+      y: 324
+    }, {
+      name: 'Agak Sesuai',
+      y: 271
+    }, {
+      name: 'Sesuai',
+      y: 469,
+      sliced: true,
+      selected: true
+    }]
+  }]
+});
 
+  Highcharts.chart('post2', {
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: 'Soal POST Test Bagian 2 Nomor 2'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  accessibility: {
+    point: {
+      valueSuffix: '%'
+    }
+  },
+  plotOptions: {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+      }
+    }
+  },
+  series: [{
+    name: 'Jumlah Pemilih',
+    colorByPoint: true,
+    data: [{
+      name: 'Tidak Sesuai',
+      y: 2
+    }, {
+      name: 'Kurang Sesuai',
+      y: 5
+    }, {
+      name: 'Netral',
+      y: 110
+    }, {
+      name: 'Agak Sesuai',
+      y: 187
+    }, {
+      name: 'Sesuai',
+      y: 834,
+      sliced: true,
+      selected: true
+    }]
+  }]
+});
+// /------------------------/  //
+
+Highcharts.chart('pre3', {
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: 'Soal PRE Test Bagian 2 Nomor 3'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  accessibility: {
+    point: {
+      valueSuffix: '%'
+    }
+  },
+  plotOptions: {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+      }
+    }
+  },
+  series: [{
+    name: 'Jumlah Pemilih',
+    colorByPoint: true,
+    data: [{
+      name: 'Tidak Sesuai',
+      y: 12
+    }, {
+      name: 'Kurang Sesuai',
+      y: 33
+    }, {
+      name: 'Netral',
+      y: 326
+    }, {
+      name: 'Agak Sesuai',
+      y: 335
+    }, {
+      name: 'Sesuai',
+      y: 435,
+      sliced: true,
+      selected: true
+    }]
+  }]
+});
+
+  Highcharts.chart('post3', {
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: 'Soal POST Test Bagian 2 Nomor 3'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  accessibility: {
+    point: {
+      valueSuffix: '%'
+    }
+  },
+  plotOptions: {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+      }
+    }
+  },
+  series: [{
+    name: 'Jumlah Pemilih',
+    colorByPoint: true,
+    data: [{
+      name: 'Tidak Sesuai',
+      y: 0
+    }, {
+      name: 'Kurang Sesuai',
+      y: 3
+    }, {
+      name: 'Netral',
+      y: 134
+    }, {
+      name: 'Agak Sesuai',
+      y: 205
+    }, {
+      name: 'Sesuai',
+      y: 734,
+      sliced: true,
+      selected: true
+    }]
+  }]
+});
+// /------------------------/  //
+Highcharts.chart('pre4', {
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: 'Soal PRE Test Bagian 2 Nomor 4'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  accessibility: {
+    point: {
+      valueSuffix: '%'
+    }
+  },
+  plotOptions: {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+      }
+    }
+  },
+  series: [{
+    name: 'Jumlah Pemilih',
+    colorByPoint: true,
+    data: [{
+      name: 'Tidak Sesuai',
+      y: 12
+    }, {
+      name: 'Kurang Sesuai',
+      y: 111
+    }, {
+      name: 'Netral',
+      y: 326
+    }, {
+      name: 'Agak Sesuai',
+      y: 111
+    }, {
+      name: 'Sesuai',
+      y: 435,
+      sliced: true,
+      selected: true
+    }]
+  }]
+});
+
+  Highcharts.chart('post4', {
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: 'Soal POST Test Bagian 2 Nomor 4'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  accessibility: {
+    point: {
+      valueSuffix: '%'
+    }
+  },
+  plotOptions: {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+      }
+    }
+  },
+  series: [{
+    name: 'Jumlah Pemilih',
+    colorByPoint: true,
+    data: [{
+      name: 'Tidak Sesuai',
+      y: 1111
+    }, {
+      name: 'Kurang Sesuai',
+      y: 111
+    }, {
+      name: 'Netral',
+      y: 134
+    }, {
+      name: 'Agak Sesuai',
+      y: 205
+    }, {
+      name: 'Sesuai',
+      y: 734,
+      sliced: true,
+      selected: true
+    }]
+  }]
+});
 // /------------------------/  //
 
 
 
+// /------------------------/  //
+// /------------------------/  //
 
 </script>
 
